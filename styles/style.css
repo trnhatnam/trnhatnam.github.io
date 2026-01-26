@@ -1,0 +1,31 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 18px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Google Sans", sans-serif;
+}
+
+
+h1,
+.about
+{
+    text-align: center;
+}
+
+.title {
+    font-size : 40px;
+    border: 1px black solid;
+}
+p {
+    line-height: 1.5;
+}
+
+body {
+   max-width: 1920px;
+   margin : 0 auto;
+   padding: 0 5% 0 5%;
+}
+
+a {
+    text-decoration: none; 
+}
